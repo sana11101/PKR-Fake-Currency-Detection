@@ -1,0 +1,56 @@
+# ==================================================
+# PKR Fake Currency Detection — .gitignore
+# ==================================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ---- Virtual Environments ----
+venv/
+env/
+.venv/
+ENV/
+
+# ---- Dataset Images (too large for GitHub) ----
+dataset/real/*.jpg
+dataset/real/*.jpeg
+dataset/real/*.png
+dataset/fake/*.jpg
+dataset/fake/*.jpeg
+dataset/fake/*.png
+dataset/augmented/
+
+# ---- Trained Models (too large for GitHub) ----
+model/saved/*.h5
+model/saved/*.npy
+model/saved/*.pkl
+model/saved/*.png
+
+# ---- Jupyter Notebook Checkpoints ----
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- Logs ----
+*.log
