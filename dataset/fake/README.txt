@@ -1,10 +1,23 @@
-Place your FAKE (printed/counterfeit) PKR note photos here.
+FAKE PKR NOTES DATASET
+======================
 
-Supported formats: .jpg, .jpeg, .png
+Contents:
+- Photographs of printed copies of PKR notes
+- Printed on regular A4 paper (color and black & white)
+- Denominations: 100, 500, 1000 PKR
 
-Naming suggestion:
-  fake_100_001.jpg
-  fake_500_001.jpg
-  fake_1000_001.jpg
+Why Printed Copies?
+Printed notes lack: watermark, security thread,
+color-shifting ink, and raised texture.
+CNN learns these differences to detect forgeries.
 
-Collect at least 50-100 images for good results.
+Naming Format:
+fake_[denomination]_[front/back]_printed_[color/bw]_[number].jpg
+
+Example:
+fake_100_front_printed_color_1.jpg
+fake_500_front_printed_bw_2.jpg
+
+Total Images: [fill this after collection]
+Collected by: Aqsa
+Date: May 2025
